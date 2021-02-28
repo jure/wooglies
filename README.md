@@ -10,6 +10,8 @@ This project was built as a way to learn and experiment with collaborative tech 
 
 It is built primarily with [`react-three-fiber`](https://github.com/pmndrs/react-three-fiber), [`drei`](https://github.com/pmndrs/drei) and [`react-xr`](https://github.com/pmndrs/react-xr), but it also depends on a number of other great [packages](https://github.com/jure/wooglies/blob/main/package.json). There is _a lot_ of [`Three.js`](https://github.com/mrdoob/three.js) code sprinkled around. The project also required PRs to Three itself [[1](https://github.com/mrdoob/three.js/pull/21268), [2](https://github.com/mrdoob/three.js/pull/21183)].
 
+The first version/prototype was publicly released on February 28th 2021.
+
 All of the code (with the exception of the included fragment shaders, which come with their own individual licenseses) is licensed under the MIT license, so you're welcome to take and use what you need, according to the terms of the license.
 
 # What this isn't

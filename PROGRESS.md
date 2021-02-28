@@ -28,3 +28,4 @@ This is a raw pictorial log of development. Its purpose is to remind of the prog
 ![IMG_9023.jpg](progress/IMG_9023.jpg)
 # 28th of February 2021
 ![Screenshot](progress/Screenshot_2021-02-28_015727.png)
+![First live version](progress/Screenshot_2021-02-28_032735.png)
