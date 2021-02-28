@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wooglies</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="root"></div>
+        <div id="container">
+        <div id="enter">
+            <video id="hi" src="hiwelcometowooglies.mp4" controls muted></video>
+            <h1 id="options" style="display: none;">Options (reload for all)</h1>
+            <div class="fields">            
+                <div class="field">
+                    <label for="spacename">
+                        World
+                    </label>
+                    <input type="text" id="spacename" placeholder="Leave empty for random..." />
+                </div>
+                <div class="field">
+                    <label for="nickname">
+                        Name
+                    </label>
+                    <input type="text" id="nickname" placeholder="Leave empty for fun..." />
+                </div>
+            </div>
+            <div class="fields checkboxes">            
+                <div class="field">
+                    <input type="checkbox" name="volumetricself" id="volumetricself">
+                    <label for="volumetricself">Volumetric self (needs a good computer)</label>
+                </div>
+                <div class="field">
+                    <input type="checkbox" name="volumetricother" id="volumetricother">
+                    <label for="volumetricother">Others as volumetrics (also needs a good computer)</label>
+                </div>
+            </div>
+            <div class="fields">            
+                <div class="field">
+                    <button class="enterbutton" id="enterflat">Enter with keyboard & mouse</button>
+                </div>
+                <div class="field">
+                    <button class="enterbutton" id="entervr">Enter with VR</button>
+                </div>
+            </div>
+        <div id="notice"><a href="https://github.com/jure/wooglies">Open source.</a> Headphones please! Or here be echo.</div>
+        <div id="debug" style="display: none;"></div>
+        </div>
+
+        </div>
+        <script src="bundle.js"></script>
+    </body>
+</html>
